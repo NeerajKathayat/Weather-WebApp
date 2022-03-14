@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded',async ()=>{
     
     //listing all cities
 
-    stateListDropDown.addEventListener('change',async function(){  //here we can't use arrow function because we are using this kwyword and arrow function dosen't support this keyword
+    stateListDropDown.addEventListener('change',async function(){  //here we can't use arrow function because we are using this kwyword and arrow function doesn't support this keyword
         const selectedCountryCode=countriesListDropDown.value;
         const selectedStateCode=this.value;
          console.log("dff ",selectedStateCode)
